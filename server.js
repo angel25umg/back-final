@@ -30,7 +30,7 @@ app.get("/", (req, res) => {
 });
 
 
-require("./app/routes/cliente.routes")(app);
+require("./app/routes/serie.routes")(app);
 // set port, listen for requests
 const PORT = process.env.PORT || 8081;
 app.listen(PORT, () => {
