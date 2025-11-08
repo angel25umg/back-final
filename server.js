@@ -7,7 +7,7 @@ const cors = require("cors");
 const app = express();
 
 var corsOptions = {
-  origin: ["http://localhost:8081" , "http://localhost:5173"]
+  origin: ["http://localhost:8081" , "http://localhost:5173" , "https://front-final-w1rz.onrender.com"]
 };
 
 app.use(cors(corsOptions));
